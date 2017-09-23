@@ -38,9 +38,7 @@ django-sa way::
     from django_sa import setup_django
     setup_django(__file__)
 
-    from community.models import Bot
-    bot = Bot.objects.get(pk=101)
-    bot.backup(async=True)
+    # django code
 
 Using a different django settings file:
 
@@ -49,6 +47,4 @@ Using a different django settings file:
     from django_sa import setup_django
     setup_django(__file__, 'my_project.settings.production')
 
-    from community.models import Bot
-    bot = Bot.objects.get(pk=101)
-    bot.backup(async=True)
+    # django code
