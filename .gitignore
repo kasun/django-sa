@@ -1,0 +1,10 @@
+# temporary files
+*.swp
+*.swo
+
+*.pyc
+*.pyo
+
+
+# local to do notes
+todos.txt
